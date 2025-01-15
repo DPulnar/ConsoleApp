@@ -11,7 +11,7 @@ namespace lab5.zad3
 
         public PersonRepository() { }
         private List<Person> data = new() {
-            new Person("Dominik","Pulnar",21, List<int>  = new List<int>{1,2,3} )
+            new Person("Dominik","Pulnar",21, new List<int>{1,2,3} )
        
         };
 
